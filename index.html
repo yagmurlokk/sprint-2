@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etkinlikler - Kampüs Etkinlikleri</title>
+    <!-- Ortak CSS Dosyamız -->
+    <link rel="stylesheet" href="2416501035.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+    <h1>Kampüs Etkinlikleri</h1>
+    <nav>
+        <a href="index.html" class="active">Ana Sayfa</a>
+        <a href="etkinlikler.html">Etkinlikler</a>
+        <a href="etkinlik-detay.html">Etkinlik Detay</a>
+        <a href="etkinlik-ekle.html">Ekle</a>
+        <a href="etkinlik-guncelle.html">Güncelle</a>
+    </nav>
+</header>
+
+    <!-- MAIN İÇERİK -->
+    <main class="container">
+
+        <h2>Etkinlikler</h2>
+
+        <!-- 3'LÜ KART IZGARASI (CSS Grid) -->
+        <section class="events-grid">
+
+            <!-- 1. KART -->
+            <article class="card">
+                <h3>Kariyer Günleri 2026</h3>
+                <p><strong>Kategori:</strong> Seminer</p>
+                <p><strong>Tarih:</strong> <time datetime="2026-10-12">12 Ekim 2026</time></p>
+                <p><strong>Yer:</strong> A Blok Konferans Salonu</p>
+                <p>Üniversitemizde öğrencilerin kariyer gelişimine yönelik düzenlenen seminer.</p>
+                <a href="etkinlik-detay.html#kariyer" class="btn-detail">Detayları Gör &rarr;</a>
+            </article>
+
+            <!-- 2. KART -->
+            <article class="card">
+                <h3>Robotik Atölyesi</h3>
+                <p><strong>Kategori:</strong> Atölye</p>
+                <p><strong>Tarih:</strong> <time datetime="2026-10-20">20 Ekim 2026</time></p>
+                <p><strong>Yer:</strong> Lab 2</p>
+                <p>Robotik sistemler hakkında uygulamalı çalışmaların yapılacağı atölye.</p>
+                <a href="etkinlik-detay.html#robotik" class="btn-detail">Detayları Gör &rarr;</a>
+            </article>
+
+            <!-- 3. KART -->
+            <article class="card">
+                <h3>Yazılım Konferansı</h3>
+                <p><strong>Kategori:</strong> Konferans</p>
+                <p><strong>Tarih:</strong> <time datetime="2026-10-25">25 Ekim 2026</time></p>
+                <p><strong>Yer:</strong> Büyük Salon</p>
+                <p>Yazılım dünyasındaki güncel teknolojilerin konuşulacağı konferans.</p>
+                <a href="etkinlik-detay.html" class="btn-detail">Detayları Gör &rarr;</a>
+            </article>
+
+        </section>
+
+
+        <!-- AYIN PROGRAMI TABLOSU -->
+        <section style="margin-top: 40px;">
+            <h2>Ayın Programı</h2>
+
+            <table class="program-table">
+                <caption><strong>Ekim 2026 Etkinlik Programı</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Tarih</th>
+                        <th>Etkinlik</th>
+                        <th>Yer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12 Ekim</td>
+                        <td>Kariyer Günleri 2026</td>
+                        <td>A Blok</td>
+                    </tr>
+                    <tr>
+                        <td>20 Ekim</td>
+                        <td>Robotik Atölyesi</td>
+                        <td>Lab 2</td>
+                    </tr>
+                    <tr>
+                        <td>25 Ekim</td>
+                        <td>Yazılım Konferansı</td>
+                        <td>Büyük Salon</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Ad Soyad: Yagmur Lök | Okul No: 2416501035 | 2026</p>
+    </footer>
+
+</body>
+
+</html>
